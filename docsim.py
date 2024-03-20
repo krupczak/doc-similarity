@@ -17,7 +17,7 @@ import gensim.downloader as api
 from gensim.utils import simple_preprocess
 from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
-from gensim.models import WordEmbeddingSimilarityIndex
+from gensim.similarities import WordEmbeddingSimilarityIndex
 from gensim.similarities import SparseTermSimilarityMatrix
 from gensim.similarities import SoftCosineSimilarity
 from gensim.models.keyedvectors import Word2VecKeyedVectors
